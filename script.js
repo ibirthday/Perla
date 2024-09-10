@@ -3,7 +3,7 @@ const countdownElement = document.getElementById('countdown');
 
 function updateCountdown() {
     const current_date = new Date()  
-    const selected_date = new Date(current_date.getFullYear(), 9, 27)
+    const selected_date = new Date(current_date.getFullYear(), 8, 27)
 
     const current_date_str = current_date.toDateString()
     const selected_date_str = selected_date.toDateString()
